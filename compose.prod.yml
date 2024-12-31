@@ -2,8 +2,6 @@ services:
    monportfolio:
       image: ghcr.io/ola-awaly/monportfolio:latest
 
-      ports:
-         - '80:80'
       pull_policy: always
       networks:
          - proxy_monportfolio
