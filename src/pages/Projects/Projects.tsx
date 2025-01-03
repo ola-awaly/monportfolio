@@ -1,4 +1,3 @@
-import { LignesVerticales } from '../../components/LignesVerticales/LignesVerticales';
 import mastermind from '../../assets/mastermind_screen.png';
 import cvgenerator from '../../assets/cvgenerator_screen.png';
 export function Project() {

@@ -4,7 +4,6 @@ import { AboutMe } from './pages/AboutMe/AboutMe';
 import { Education } from './pages/Education/Education';
 import { Experience } from './pages/Experience/Experience';
 import { Project } from './pages/Projects/Projects';
-import { Contact } from './pages/Contact/Contact';
 export const router = createBrowserRouter([
 	{
 		path: '/',
