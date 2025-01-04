@@ -1,21 +1,23 @@
-import { Link } from 'react-router-dom';
+import { useState } from 'react';
 import { Logo } from './Logo';
+import { Menu } from './Menu';
+import { MenuMobile } from './MenuMobile';
 export function Header() {
+	const [isOpen, setIsOpen] = useState(false);
+
 	return (
 		<header className=" flex flex-row justify-evenly items-center">
 			<Logo />
-			<ul className="flex gap-8 text-xl">
+			<Menu />
+			<MenuMobile isOpen={isOpen} setIsOpen={setIsOpen} />
+			<ul className="lg:hidden">
 				<li>
-					<Link to="about-me">Moi</Link>
-				</li>
-				<li>
-					<Link to="my-education">Mon éducation</Link>
-				</li>
-				<li>
-					<Link to="my-experience">Mon expérience</Link>
-				</li>
-				<li>
-					<Link to="my-projects">Mes projets</Link>
+					<i
+						className="fa-solid fa-bars text-5xl"
+						onClick={() => {
+							setIsOpen(!isOpen);
+						}}
+					></i>
 				</li>
 			</ul>
 		</header>

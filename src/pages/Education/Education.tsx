@@ -2,8 +2,8 @@ import education from '../../assets/education.webp';
 import { LignesVerticales } from '../../components/LignesVerticales/LignesVerticales';
 export function Education() {
 	return (
-		<div className="flex justify-center gap-8">
-			<div>
+		<div className="flex flex-col items-center text-lg md:flex-row md:justify-center md:gap-6 justify-evenly">
+			<div className="flex md:flex-col">
 				<LignesVerticales sens="b" />
 				<img
 					src={education}

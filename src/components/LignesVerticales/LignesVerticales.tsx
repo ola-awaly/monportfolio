@@ -1,11 +1,13 @@
 export function LignesVerticales({ sens = 'b' }) {
 	return (
-		<div className={`flex justify-center items-end gap-4 m${sens}-[-6px]`}>
-			<span className="border-l-[0.5px] border-white h-20 "></span>
-			<span className="border-l border-white h-20 "></span>
-			<span className="border-l border-white h-20"></span>
-			<span className="border-l border-white h-20"></span>
-			<span className="border-l border-white h-20 "></span>
+		<div
+			className={`flex flex-auto md:flex-row flex-col justify-center md:items-end items-center gap-4 m${sens}-[-6px]`}
+		>
+			<span className="md:border-l border-white md:h-20 border-t w-10  md:w-0"></span>
+			<span className="md:border-l border-white md:h-20 border-t w-10 md:w-0"></span>
+			<span className="md:border-l border-white md:h-20 border-t w-10 md:w-0"></span>
+			<span className="md:border-l border-white md:h-20 border-t w-10 md:w-0"></span>
+			<span className="md:border-l border-white md:h-20 border-t w-10 md:w-0"></span>
 		</div>
 	);
 }

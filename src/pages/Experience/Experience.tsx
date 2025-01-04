@@ -2,9 +2,9 @@ import experience from '../../assets/experience.webp';
 import { LignesVerticales } from '../../components/LignesVerticales/LignesVerticales';
 export function Experience() {
 	return (
-		<div className="flex justify-center gap-8 items-center">
+		<div className="flex flex-col-reverse items-center text-lg md:flex-row md:justify-center gap-6 justify-evenly">
 			<div className="flex flex-col gap-2 ">
-				<h2 className="text-5xl mb-4">Experience</h2>
+				<h2 className="text-5xl mb-4">Expérience</h2>
 				<section className="flex flex-col ">
 					<div className="font-semibold">2010 - 2021</div>
 					<div className="font-semibold">LexGO SPRL</div>
@@ -21,7 +21,7 @@ export function Experience() {
 					<div className="font-thin">Dévelopement ERP (Internship)</div>
 				</section>
 			</div>
-			<div>
+			<div className="flex md:flex-col">
 				<LignesVerticales sens="b" />
 				<img
 					src={experience}

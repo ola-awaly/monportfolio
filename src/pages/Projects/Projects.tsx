@@ -21,7 +21,7 @@ export function Project() {
 					<a href="http://mastermind.olatech.ovh" target="_blank">
 						<img
 							src={mastermind}
-							alt="photo ola awaly"
+							alt="mastermind"
 							className="h-48 rounded-sm "
 						/>
 					</a>
@@ -30,7 +30,7 @@ export function Project() {
 					<a href="http://cvgenerator.olatech.ovh" target="_blank">
 						<img
 							src={cvgenerator}
-							alt="photo ola awaly"
+							alt="cvgenerator"
 							className="h-64 rounded-sm "
 						/>
 					</a>
