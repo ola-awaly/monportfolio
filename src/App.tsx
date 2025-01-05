@@ -4,7 +4,7 @@ import { Header } from './components/Header/Header';
 import { Footer } from './components/Footer/Footer';
 function App() {
 	return (
-		<div className=" bg-gradient-to-tr from-customDark to-customLight min-h-screen w-full text-textLight flex flex-col justify-between">
+		<div className=" bg-gradient-to-tr from-customDark to-customLight min-h-screen w-full text-textLight flex flex-col justify-between py-2">
 			<Header />
 			<Outlet />
 			<Footer />

@@ -6,7 +6,7 @@ export function AboutMe() {
 		<section className="flex flex-col items-center text-lg md:flex-row md:justify-center md:gap-6 justify-evenly">
 			<div className="mb-4 md:mb-0 ">
 				<h1 className="text-5xl mb-6">Ola Awaly</h1>
-				<p className="w-96 font-thin ">
+				<p className="w-80 font-thin ">
 					Développeuse web passionnée, je conçois des solutions modernes et
 					performantes en mettant l’accent sur React.js et Node.js.
 					Toujours curieuse et motivée, je suis prête à relever de nouveaux

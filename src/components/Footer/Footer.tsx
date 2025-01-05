@@ -1,6 +1,6 @@
 export function Footer() {
 	return (
-		<footer className="text-xs  italic flex justify-center p-3 gap-4 opacity-55 sticky bottom-0 w-full bg-black">
+		<footer className="text-xs  italic flex justify-center p-3 gap-4 opacity-55  bottom-0 w-full bg-black mt-6 sticky">
 			<span className="font-bold">Contact : </span>
 			<a href="mailto:awaly.ola@gmail.com">awaly.ola@gmail.com</a>
 

@@ -6,7 +6,7 @@ export function Header() {
 	const [isOpen, setIsOpen] = useState(false);
 
 	return (
-		<header className=" flex flex-row justify-evenly items-center">
+		<header className=" flex flex-row justify-evenly items-center mb-4">
 			<Logo />
 			<Menu />
 			<MenuMobile isOpen={isOpen} setIsOpen={setIsOpen} />

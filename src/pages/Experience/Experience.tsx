@@ -3,7 +3,7 @@ import { LignesVerticales } from '../../components/LignesVerticales/LignesVertic
 export function Experience() {
 	return (
 		<div className="flex flex-col-reverse items-center text-lg md:flex-row md:justify-center gap-6 justify-evenly">
-			<div className="flex flex-col gap-2 ">
+			<div className="flex flex-col gap-2  ">
 				<h2 className="text-5xl mb-4">Expérience</h2>
 				<section className="flex flex-col ">
 					<div className="font-semibold">2010 - 2021</div>
@@ -26,7 +26,7 @@ export function Experience() {
 				<img
 					src={experience}
 					alt="experience ola awaly"
-					className="rounded-full h-72"
+					className="rounded-full md:h-72 h-36"
 				/>
 				<LignesVerticales sens="t" />
 			</div>
