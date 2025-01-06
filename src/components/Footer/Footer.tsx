@@ -6,11 +6,14 @@ export function Footer() {
 
 			<a
 				href="tel:+0032479609790"
-				aria-label="Appeler le numéro 0479 60 97 90"
+				aria-label="Appeler le numéro 0032 479 60 97 90"
 			>
 				<span>0479 60 97 90 </span>
 			</a>
-			<a href="">
+			<a
+				href="https://www.linkedin.com/in/ola-awaly-20a046193/"
+				target="_blank"
+			>
 				<i className="fa-brands fa-linkedin"></i>
 			</a>
 		</footer>
